@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.full-page-section {
+    display: flex;
+    align-items: flex-end;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), 
+                url('https://img77.uenicdn.com/image/upload/v1580913165/business/845483db-d377-4d59-83b0-88191edf9858.jpg') center/cover no-repeat;
+}
+
+.content-section {
+    padding: 20px;
+    color: white;
+}
+
+.content-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff7e00;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ff5700;
+}

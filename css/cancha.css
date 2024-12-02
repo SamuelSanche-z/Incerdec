@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap'); 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+.contenido {
+    max-width: 1200px;
+    width: 100%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column; /* Cambiado a columna para la página de detalles */
+    align-items: center; /* Centrar contenido */
+}
+
+.mostrador {
+    width: 100%;
+    transition: .5s ease;
+}
+
+.detalle-cancha {
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Sombra más prominente */
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.detalle-cancha h2 {
+    font-size: 2rem;
+    color: #32CD32; /* Verde lima para el título */
+    margin-bottom: 20px;
+}
+
+.detalle-cancha img {
+    width: 100%;
+    max-width: 500px; /* Limitar el ancho de la imagen */
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.detalle-cancha p {
+    color: #707070;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.detalle-cancha strong {
+    color: #32CD32; /* Resaltar etiquetas fuertes */
+}
+
+.rentar-btn {
+    font-size: 18px;
+    padding: 12px 24px;
+    background-color: #32CD32; /* Verde lima */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(50, 205, 50, 0.3); /* Sombra sutil */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 20px; /* Separar el botón del texto */
+}
+
+.rentar-btn:hover {
+    background-color: #28a828; /* Verde lima oscuro al hacer hover */
+    color: #f0f0f0; /* Color ligeramente más claro en el texto */
+    box-shadow: 0px 6px 10px rgba(40, 168, 40, 0.4); /* Aumento de sombra */
+}
